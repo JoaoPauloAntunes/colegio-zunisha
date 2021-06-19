@@ -84,3 +84,11 @@ main {
 .nav-item {
   font-size: 2rem;
 }
+
+.carousel h3, 
+.carousel p {
+  font-weight: bolder!important;
+  color: yellow!important;
+  -webkit-text-stroke-width: 0.05rem!important;
+  -webkit-text-stroke-color: rgb(66, 63, 63)!important;
+}
