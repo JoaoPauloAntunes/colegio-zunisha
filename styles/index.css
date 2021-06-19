@@ -48,6 +48,7 @@ main {
 .search-bar input {
   all: unset;
   flex: 1;
+  color: black;
 }
 .search-bar input::placeholder {
   color: silver;
@@ -65,11 +66,21 @@ main {
 #logo {
   width: 7rem;
   height: 5rem;
+  border-radius: 20px;
 }
 
+#contact_icons i {
+  color: white;
+}
 
-.bd-navbar {
-  min-height: 4rem;
-  background-color: #563d7c;
-  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 5%), inset 0 -1px 0 rgb(0 0 0 / 10%);
+#contact_address {
+  color: white;
+}
+
+.navbar {
+  background: #425351;
+}
+
+.nav-item {
+  font-size: 2rem;
 }
