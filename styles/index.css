@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: 500 1rem Inter, sans-serif;
+}
+
+:root {
+  --white: #fff;
+  --blue: #3483fa;
+  --gray-50: #f7f8fa;
+  --gray-100: #e6e8eb;
+  --gray-200: #afb2b1;
+  --gray-500: #808080;
+  --gray-800: #494d4b;
+  --green-500: #04d361;
+  --purple-300: #9f75ff;
+  --purple-400: #9164fa;
+  --purple-500: #8257e5;
+  --purple-800: #6f48c9;
+}
+
+button {
+  cursor: pointer;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #000;
+  margin: 1em 0;
+  padding: 0;
+}
+
+main {
+  margin-top: 5rem;
+}
+
+.search-bar {
+  width: 100%;
+  background: white;
+  padding: 0.3rem;
+  border: solid 1px silver;
+  display: flex;
+}
+
+.search-bar input {
+  all: unset;
+  flex: 1;
+}
+.search-bar input::placeholder {
+  color: silver;
+  font-size: 1rem;
+}
+.search-bar button {
+  all: unset;
+  color: silver;
+}
+.search-bar button:hover,
+.card:hover {
+  cursor: pointer;
+}
+
+#logo {
+  width: 7rem;
+  height: 5rem;
+}
+
+
+.bd-navbar {
+  min-height: 4rem;
+  background-color: #563d7c;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 5%), inset 0 -1px 0 rgb(0 0 0 / 10%);
+}
