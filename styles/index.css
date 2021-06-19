@@ -87,6 +87,7 @@ main {
 
 .carousel h3, 
 .carousel p {
+  font-size: 150%;
   font-weight: bolder!important;
   color: yellow!important;
   -webkit-text-stroke-width: 0.05rem!important;
