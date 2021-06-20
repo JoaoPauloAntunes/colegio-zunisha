@@ -81,9 +81,17 @@ a:hover {
   font-size: 1.5rem;
 }
 
-.carousel h3, 
+
+
+.carousel h3 {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: yellow;
+  -webkit-text-stroke-width: 0.05rem;
+  -webkit-text-stroke-color: rgb(66, 63, 63);
+} 
 .carousel p {
-  font-size: 150%;
+  font-size: 1.5rem;
   font-weight: bolder;
   color: yellow;
   -webkit-text-stroke-width: 0.05rem;
@@ -206,6 +214,14 @@ footer {
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
   .navbar .navbar-nav .nav-item {
+    font-size: 1rem;
+  }
+
+  .carousel h3 {
+    font-size: 1.3rem;
+  } 
+
+  .carousel p {
     font-size: 1rem;
   }
 }
