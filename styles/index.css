@@ -82,7 +82,7 @@ main {
 }
 
 .nav-item {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .carousel h3, 
@@ -118,4 +118,23 @@ main {
   color: #24c2ad;
   transition: color .1s;
   text-decoration: none;
+}
+
+
+.card-title,
+.card-text {
+  font-size: 150%;
+  font-weight: bolder;
+  color: white;
+  -webkit-text-stroke-width: 0.05rem;
+  -webkit-text-stroke-color: rgb(66, 63, 63);
+  text-align: center;
+}
+
+#divider_built_with_images.row > div {
+  padding: 0rem;
+}
+
+#divider_built_with_images.row img {
+  filter: brightness(50%);
 }
