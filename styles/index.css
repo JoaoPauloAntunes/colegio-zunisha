@@ -140,7 +140,7 @@ a:hover {
   filter: brightness(50%);
 }
 
-#news .card .card-body p a {
+.card .card-body p a {
   color: #000; 
   font-weight: bold;
 }
