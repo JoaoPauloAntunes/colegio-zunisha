@@ -143,54 +143,64 @@
             <div class="row">
               <div class="col-lg-6">
                 <div class="form-group">
-                  <label for="">Nome</label>
-                  <input class="form-control required-field" type="text"  />
+                  <label for="nome">Nome</label>
+                  <input id="nome" class="form-control required-field" type="text"  />
                 </div>
               </div>
               <div class="col-lg-6">
                 <div class="form-group">
-                  <label for="">E-mail</label>
-                  <input class="form-control required-field" type="text"  />
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="form-group">
-                  <label for="">Telefone</label>
-                  <input class="form-control required-field" type="text"  />
+                  <label for="email">E-mail</label>
+                  <input id="email" class="form-control required-field" type="text"  />
                 </div>
               </div>
             </div>
             <div class="row">
               <div class="col-lg-6">
                 <div class="form-group">
-                  <label for="">Assunto</label>
-                  <input class="form-control required-field" type="text"  />
+                  <label for="phone">Telefone</label>
+                  <input id="phone" class="form-control required-field" type="text"  />
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <label for="description">Assunto</label>
+                  <select id="description" class="form-control required-field">
+                    <option value="Atendimento" selected>Atendimento</option>
+                    <option value="Secretaria">Secretaria</option>
+                    <option value="Financeiro">Financeiro</option>
+                    <option value="Direção">Direção</option>
+                    <option value="Fornecedores">Fornecedores</option>
+                    <option value="Trabalhe Conosco">Trabalhe Conosco</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <label for="responsible_or_student">Você é responsável ou aluno do Colégio Zunisha?</label>
+                  <select id="responsible_or_student" class="form-control required-field">
+                    <option value="Atendimento" selected>Sim</option>
+                    <option value="Secretaria">Não</option>
+                  </select>
                 </div>
               </div>
             </div>
             <div class="row">
               <div class="col">
                 <div class="form-group">
-                  <label for="">Você é responsável ou aluno do Colégio Zunisha?</label>
-                  <input class="form-control required-field" type="text"  />
+                  <label for="message">Mensagem</label>
+                  <textarea id="message" class="form-control required-field"></textarea>
                 </div>
               </div>
             </div>
             <div class="row">
               <div class="col">
-                <div class="form-group">
-                  <label for="">Mensagem</label>
-                  <textarea class="form-control required-field"></textarea>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col">
-                <div class="form-group">
-                  <label for="">Consentir</label>
-                  <input class="form-control required-field" type="text"  />
+                <div class="form-check">
+                  <input id="agreement" type="checkbox" class="form-check-input required-field">
+                  <label for="agreement" class="form-check-label">Eu concordo com a Política de Privacidade.</label>
                 </div>
               </div>
             </div>
