@@ -101,7 +101,8 @@ main {
 .box-courses {
   background: #f5f5f5;
   padding: 3rem 0;
-  border:solid silver 1px;
+  border: solid silver 1px;
+  border-bottom: 5px solid #008f7b;
 }
 .box-courses > div {
   padding: 0.5rem;
