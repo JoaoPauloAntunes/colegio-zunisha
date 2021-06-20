@@ -39,6 +39,11 @@ a:hover {
   text-decoration: pointer!important;
 }
 
+em {
+  font-style: italic;
+}
+
+
 .search-bar {
   width: 100%;
   background: white;
