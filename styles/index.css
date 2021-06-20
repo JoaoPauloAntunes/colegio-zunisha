@@ -37,6 +37,12 @@ main {
   margin-top: 5rem;
 }
 
+a:hover {
+  color: #24c2ad!important;
+  transition: color .1s;
+  text-decoration: none;
+}
+
 .search-bar {
   width: 100%;
   background: white;
@@ -114,11 +120,6 @@ main {
   transition: color .1s;
   font-weight: bolder;
 }
-.box-courses a:hover {
-  color: #24c2ad;
-  transition: color .1s;
-  text-decoration: none;
-}
 
 
 .card-title,
@@ -137,4 +138,9 @@ main {
 
 #divider_built_with_images.row img {
   filter: brightness(50%);
+}
+
+#news .card .card-body p a {
+  color: #000; 
+  font-weight: bold;
 }
