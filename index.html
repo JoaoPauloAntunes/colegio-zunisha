@@ -45,26 +45,6 @@
       <img src="images/logo.png" alt="" id="logo">
     </a>
 
-<!--     <div class="navbar-nav-scroll">
-      <ul class="navbar-nav bd-navbar-nav flex-row">
-        <li class="nav-item">
-          <a class="nav-link " href="/"
-            onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">Colégio Zunisha</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="/docs/4.0/getting-started/introduction/">Cursos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " href="/docs/4.0/examples/">Diferenciais</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://themes.getbootstrap.com/"
-            target="_blank"
-            rel="noopener">Contato</a>
-        </li>
-      </ul>
-    </div> -->
-
     <ul class="navbar-nav">
       <li class="nav-item dropdown">
         <a class="nav-item nav-link dropdown-toggle mr-md-2" href="#" data-toggle="dropdown"
@@ -143,61 +123,70 @@
     </ul>
   </header>
 
-  <div class="container-fluid bg-light">
-    <div id="carousel" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel" data-slide-to="1"></li>
-        <li data-target="#carousel" data-slide-to="2"></li>
-        <li data-target="#carousel" data-slide-to="3"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="images/banner-site.jpg" class="d-block w-100">
-          <div class="carousel-caption d-none d-md-block">
-            <h3>Vem Z Férias</h3>
-            <p>Venha passar as férias no Colégio Zunisha!</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="images/banner-site-protocolos.jpg" class="d-block w-100">
-          <div class="carousel-caption d-none d-md-block">
-            <h3>Protocolos COVID-19</h3>
-            <p>Colégio Zunisha</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="images/banner-matricula.jpg" class="d-block w-100">
-          <div class="carousel-caption d-none d-md-block">
-            <h3>Agende uma Visita</h3>
-            <p>Matrículas - Ano Letivo 2021</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="images/banner-ZAD.jpg" class="d-block w-100">
-          <div class="carousel-caption d-none d-md-block">
-            <h3>ZAD - Zunisha a Distância</h3>
-            <p>Conheça nosso novo projeto</p>
-          </div>
+  <div id="carousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel" data-slide-to="1"></li>
+      <li data-target="#carousel" data-slide-to="2"></li>
+      <li data-target="#carousel" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/banner-site.jpg" class="d-block w-100">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>Vem Z Férias</h3>
+          <p>Venha passar as férias no Colégio Zunisha!</p>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Anterior</span>
-      </a>
-      <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Próximo</span>
-      </a>
+      <div class="carousel-item">
+        <img src="images/banner-site-protocolos.jpg" class="d-block w-100">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>Protocolos COVID-19</h3>
+          <p>Colégio Zunisha</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/banner-matricula.jpg" class="d-block w-100">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>Agende uma Visita</h3>
+          <p>Matrículas - Ano Letivo 2021</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/banner-ZAD.jpg" class="d-block w-100">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>ZAD - Zunisha a Distância</h3>
+          <p>Conheça nosso novo projeto</p>
+        </div>
+      </div>
     </div>
-    <!-- 
-    <div class="carousel-item">
-      <img src="..." alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>...</h5>
-        <p>...</p>
+    <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+
+  <div class="h1 font-weight-bold mt-4 mb-5 text-center">Conheça o Colégio Zunisha</div>
+
+  <div class="container">
+    <div class="row courses">
+      <div class="col-md-6 col-lg-3">
+        <div class="box-courses">
+          <div class="text-center">
+            <img src="images/icon-curso-infantil.png" alt="">
+          </div>
+          <div class="font-weight-bold text-center">Educação Infantil</div>
+          <div class="text-center">G1 a G5</div>
+          <div class="text-center">
+            <a class="link" href="#">Saiba mais <i class="fas fa-long-arrow-alt-right"></i></a>
+          </div>
+        </div>
       </div>
-    </div> -->
+    </div>
   </div>
 
   <script src="vendor/jquery/scripts/jquery.min.js"></script>

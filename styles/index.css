@@ -88,8 +88,33 @@ main {
 .carousel h3, 
 .carousel p {
   font-size: 150%;
-  font-weight: bolder!important;
-  color: yellow!important;
-  -webkit-text-stroke-width: 0.05rem!important;
-  -webkit-text-stroke-color: rgb(66, 63, 63)!important;
+  font-weight: bolder;
+  color: yellow;
+  -webkit-text-stroke-width: 0.05rem;
+  -webkit-text-stroke-color: rgb(66, 63, 63);
+}
+
+.row.courses > div {
+  padding: 0.5rem;
+}
+
+.box-courses {
+  background: #f5f5f5;
+  padding: 3rem 0;
+  border:solid silver 1px;
+}
+.box-courses > div {
+  padding: 0.5rem;
+  font-size: 1.3rem;
+}
+.box-courses a,
+.box-courses a:visited {
+  color: #008f7b;
+  transition: color .1s;
+  font-weight: bolder;
+}
+.box-courses a:hover {
+  color: #24c2ad;
+  transition: color .1s;
+  text-decoration: none;
 }
